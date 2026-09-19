@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: reversi-chaos-deck
+    runtime: docker
+    plan: free
+    healthCheckPath: /
